@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 import Game from './pages/Game';
-import Body from './component/body';
+import Body from './component/Body';
 import GameComputer from './pages/GameComputer';
 
 function App() {
